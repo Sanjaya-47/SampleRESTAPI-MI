@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>Rest-ApiConfigs</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.example</groupId>
+  <artifactId>Rest-ApiConfigs_module</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Rest-ApiConfigs_module</name>
+  <description>Rest-ApiConfigs_module</description>
+  <modules>
+    <module>api/SampleAPI</module>
+    <module>metadata/SampleAPI_swagger</module>
+    <module>metadata/SampleAPI_metadata</module>
+    <module>endpoints/mockyEP</module>
+  </modules>
+</project>
